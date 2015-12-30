@@ -30,7 +30,7 @@ Generate index of data
 	$ cd build
 	$ ./construct_lcp <data>
 
-3.  $ cd mKD-GBWT
+3.	$ cd mKD-GBWT
 	$ ./gen_sa_lcp <data>
 
 4.	$ cd mKD-GBWT
@@ -57,7 +57,7 @@ Example
 			$ cd build
 			$ ./construct_lcp /data/english
 
-		3.  $ cd mKD-GBWT
+		3.	$ cd mKD-GBWT
 			$ ./gen_sa_lcp /data/english
 
 		4.	$ cd mKD-GBWT
