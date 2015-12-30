@@ -32,7 +32,7 @@ void test_diskgbwt::test_01(const char* fileName, uint64_t B, uint64_t step){
 	int64_t times;
 
 	while(true){
-		fprintf(stdout, ">");
+		fprintf(stdout, "(input pattern)>");
 		str = gets((char*)P);
 		m =strlen((char*)P);
 		if(m == 0)

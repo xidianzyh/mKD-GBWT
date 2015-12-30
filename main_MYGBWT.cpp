@@ -21,11 +21,11 @@ int main(int argc, char* argv[]){
 	B = stoull(argv[2]);
 	step = stoull(argv[3]);
 	char* resFile = getTestFile(argv[1]);
-	 // test_diskgbwt::test_01(argv[1], B, step);
+	 test_diskgbwt::test_01(argv[1], B, step);
 
 
 	// test_diskgbwt::test_all(argv[1], B, step, resFile);
-	test_diskgbwt::test_final(argv[1], B, step, resFile);
+	// test_diskgbwt::test_final(argv[1], B, step, resFile);
 
 	delete[] resFile;
 }
